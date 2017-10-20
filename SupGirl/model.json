@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": [
+        "stop",
+        "later",
+        "i'm audi"
+      ]
+    },
+    {
+      "name": "No",
+      "samples": [
+        "nope",
+        "no",
+        "nah"
+      ],
+      "slots": []
+    },
+    {
+      "name": "WhatsUp",
+      "samples": [
+        "What's up girl",
+        "sup girl"
+      ],
+      "slots": []
+    },
+    {
+      "name": "Yes",
+      "samples": [
+        "sure",
+        "yes",
+        "yah"
+      ],
+      "slots": []
+    },
+    {
+      "name": "YouLikey",
+      "samples": [
+        "you like my {myThingy}"
+      ],
+      "slots": [
+        {
+          "name": "myThingy",
+          "type": "myThingyType",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "YouUp",
+      "samples": [
+        "you up"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "myThingyType",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "shoes",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "shirt",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}
